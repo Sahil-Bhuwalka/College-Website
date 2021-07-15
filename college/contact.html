@@ -34,26 +34,55 @@
             </div>
             <i class="fas fa-bars" onclick="showMenu()"></i>
         </nav>
-        <h1>About Us</h1>
+        <h1>Contact Us</h1>
     </section>
-    <!-- About Us Content -->
-    <section class="about-us">
+    <!-- Contact Us -->
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5842396739586!2d77.60382841430406!3d12.934422019193834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15b277a93807%3A0x88518f37b39dabd0!2sCHRIST%20(Deemed%20to%20be%20University)!5e0!3m2!1sen!2sin!4v1626327000277!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <section class="contact-us">
         <div class="row">
-            <div class="about-col">
-                <h1>We are the World's largest university</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At harum sit est itaque doloremque aspernatur voluptatem, assumenda aut sint nihil autem porro, aliquid a dolorem saepe quisquam? Quod, itaque illum.</p>
-                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            <div class="contact-col">
+                <div>
+                    <i class="fas fa-home"></i>
+                    <span>
+                        <h5>Hosur Rd,Bhavani Nagar,S.G. Palya</h5>
+                        <p>Bengaluru,Karnataka 560029</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <span>
+                        <h5>+91 8040129600</h5>
+                        <p>Monday to Saturday,10AM to 5PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <span>
+                        <h5>cchs@christuniversity.in</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
             </div>
-            <div class="about-col">
-                <img src="images/about.jpg">
+            <div class="contact-col">
+                <form action="form-handler.php" method="POST">
+                    <input type="text" name="name" placeholder="Enter Your name" required>
+                    <input type="email" name="email" placeholder="Enter Email Address" required>
+                    <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
 
             </div>
-        </div>
     </section>
     <!-- Footer -->
     <section class="footer">
         <h4>About Us</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti assumenda<br>voluptate quo blanditiis cupiditate cum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti assumenda<br>voluptate quo blanditiis
+            cupiditate cum.</p>
         <div class="icons">
             <i class="fab fa-facebook"></i>
             <i class="fab fa-twitter"></i>
